@@ -1,0 +1,331 @@
+{
+	"variables": [],
+	"info": {
+		"name": "CORCHEAPP",
+		"_postman_id": "db074eaf-0fbd-f965-0ff6-841404a57684",
+		"description": "aplicacion de compra y ventas de partituras",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios/5cf8a2da1c9d4400003becb4",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "Obtiene los usuarios"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios/5cf8a2da1c9d4400003becb4",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "obtiene un usuario por el id"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "guarda un  nuevo usuario en la base de datos"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/delete_usuario/5cf8a2da1c9d4400003becb4",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "Actualiza un usuario en la base de datos"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/delete_usuario/5cf8a2da1c9d4400003becb4",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "Elimina un usuario de la bse de datos"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/relacion/5d280d581c9d44000058862c",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "trae la partitura por el id de genero"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/relacion/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "guardar una nueva relacion de partitura con genero"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/partituras",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "trae las partituras"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/partitura/5d2519501c9d440000e7f368",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "trae las partituras por su id"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/files",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "trar los archivos de las partituras"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/partituras/5cf8a2da1c9d4400003becb4/200000",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "trae la partitura comprada por el precio de un usuario"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/transaccion",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "crea una nueva transaccion"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/transaccion/comentario",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "crea un nuevo comentario para la transaccion"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/sellings",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "devuelve las ventas de la aplicacion"
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/transacciones",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "devuelve todas las transacciones "
+			},
+			"response": []
+		},
+		{
+			"name": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/usuarios",
+			"request": {
+				"url": "https://3000-f7a176b6-efee-459d-8429-a89cc0d9fec9.ws-us0.gitpod.io/generos",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\" : \"Manuel\",\n\t\"password\" : \"123456\",\n\t\"picture\": \"manuel.jpg\"\n}"
+				},
+				"description": "devuelve todas los generos"
+			},
+			"response": []
+		}
+	]
+}
