@@ -1,6 +1,6 @@
 Integrantes
 
-Julian Torrente
-Rafael Garcia
-Idanis Avila
-Sindy Perez
+Julian Camilo Torrente Oviedo
+Rafael Santos Garcia Luna
+Idanis Milena Avila Esquivel
+Sindy Paola Perez Florez
