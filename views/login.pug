@@ -1,0 +1,14 @@
+extend layout.pug
+
+block content
+    form
+        .form-group
+            label(for="exampleInputEmail1") Correo Electrónico
+            input(type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email")
+
+        .form-group
+            label(for="exampleInputPassword1") Clave
+            input(type="password" class="form-control" id="exampleInputPassword1" placeholder="Password")
+
+        .text-center
+            a(href="/partituras" class="btn btn-primary") Iniciar Sesión

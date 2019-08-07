@@ -1,0 +1,13 @@
+extend layaout.pug
+
+block content
+    div(class="row d-flex justify-content-center")
+        form(action="/transaccion", method="POST")
+            div(class="form-group")
+                label Partituras
+                select
+                    each partitura in partituras
+                        option= partirtura.titulo
+
+
+            button(type="submit" class="btn btn-primary") Submit

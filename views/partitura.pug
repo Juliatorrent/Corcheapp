@@ -1,0 +1,21 @@
+extends layout.pug
+
+block content
+    div(class="row d-flex justify-content-center")
+        table(class="table table-response table-narrow table-hoverable")
+            thead
+                tr
+                    th Titulo
+                    th Duracion
+                    th Tipo
+                    th Precio
+                    th Comprar
+            tbody
+                each partitura in partituras
+                    tr
+                        td= partitura.titulo
+                        td= partitura.duracion
+                        td= partitura.tipo
+                        td= partitura.precio
+                        td
+                            button(class="btn btn-primary") Comprar

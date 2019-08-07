@@ -1,0 +1,109 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Corcheapp
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(href='https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cosmo/bootstrap.min.css', rel='stylesheet')
+    link(href="https://fonts.googleapis.com/css?family=Eczar&display=swap", rel="stylesheet")
+    style(type='text/css').
+      body {
+      padding-top: 20px;
+      padding-bottom: 40px;
+      font-family: 'Eczar', serif;
+      }
+      a{
+          font-size: 1.6em;
+          margin-left: 20px;
+          text-decoration: none;
+      }
+      /* Custom container */
+      .container-narrow {
+      margin: 0 auto;
+      max-width: 700px;
+      }
+      .container-narrow > hr {
+      margin: 30px 0;
+      }
+      /* Main marketing message and sign up button */
+      .jumbotron {
+      margin: 60px 0;
+      text-align: center;
+      }
+      .jumbotron h1 {
+      font-size: 72px;
+      line-height: 1;
+      }
+      .jumbotron .btn {
+      font-size: 21px;
+      padding: 14px 24px;
+      }
+      /* Supporting marketing content */
+      .marketing {
+      margin: 60px 0;
+      }
+      .marketing p + h4 {
+      margin-top: 28px;
+      }
+
+      h3{
+        font-size: 3em;
+      }
+
+      .main{
+        background: url('http://www.wallpaperk.com/wallpapers/partitura-musical-1346.jpg') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+      }
+      .subtitle{
+          color: white;
+          font-size: 5em;
+      }
+
+      }
+
+      .comment-wrapper .panel-body {
+         max-height:650px;
+         overflow:auto;
+
+      }
+
+      .media{
+           margin-top: 50px;
+      }
+
+        .comment-wrapper .media-list .media img {
+            width:64px;
+            height:64px;
+            border:2px solid #e5e7e8;
+
+        }
+
+        .comment-wrapper .media-list .media {
+            border-bottom:1px dashed #efefef;
+            margin-bottom:25px;
+        }
+
+  body
+    .container-narrow
+      .masthead
+        ul.nav.nav-pills.pull-right
+          li.active
+            a(href='/') home
+            a(href='/login') Login
+            a(href='/usuarios') Usuarios
+            a(href='/partituras') Partituras
+            a(href='/comentarios') Comentarios
+        .text-center
+            h3.muted Corcheapp
+    hr
+    .container
+        block content
+
+    script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous")
+    script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous")
+
+

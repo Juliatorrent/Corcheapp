@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content
+    ul(class="media-list")
+        each comment in comments
+            li(class="media")
+                img(src="https://bootdey.com/img/Content/user_1.jpg")
+                div(class="media-body")
+                    strong(class="text-success") @MartinoMont
+                    p= comment.body

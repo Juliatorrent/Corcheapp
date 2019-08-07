@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content
+    .row
+        each user in users
+            .col-md-3
+                div(class="card" style="width: 18rem;")
+                    img(src=user.picture class="card-img-top" alt=user.nickname height="300")
+                    div(class="card-body")
+                        h5(class="card-title") #{user.nickname}
